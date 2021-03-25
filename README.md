@@ -23,3 +23,15 @@ dvc add data_given\winequality.csv
 git add .
 git commit -m "first commit"
 ```
+Add remote repository
+```bash
+git remote add origin https://github.com/username/repository_name
+```
+Add main branch
+```bash
+git branch -M main
+```
+Push changes to main branch
+```bash
+git push origin main
+```
