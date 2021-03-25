@@ -16,6 +16,8 @@ pip install -r requirements.txt
 Download the data from 
 https://drive.google.com/file/d/1QJdU59cPJ3xCeJ6jpPjxPtt8L3Xp-mLc/view?usp=sharing
 
+Initialize git and dvc and add data file for dvc tracking.
+Make first commit
 ```bash
 git init
 dvc init

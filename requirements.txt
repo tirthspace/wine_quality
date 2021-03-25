@@ -3,3 +3,4 @@ dvc[gdrive]
 pywin32==225
 pyyaml
 sklearn
+pandas
