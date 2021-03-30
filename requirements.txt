@@ -1,6 +1,12 @@
+# Local packages install
+-e .
+
+# Third party packages
 dvc
 dvc[gdrive]
 pywin32==225
 pyyaml
 sklearn
 pandas
+pytest
+tox

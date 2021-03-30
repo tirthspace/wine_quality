@@ -37,3 +37,27 @@ Push changes to main branch
 ```bash
 git push origin main
 ```
+
+Tox command
+```bash
+tox
+```
+for rebuilding
+```bash
+tox -r
+```
+
+Pytest command
+```bash
+ptest -v
+```
+
+Setup commands
+```bash
+pip install -e .
+```
+
+Building your own package
+```bash
+python setup.py sdist bdist_wheel
+```
